@@ -6,7 +6,7 @@ file_path = os.getcwd() + "\\Python Projects\\Budget App\\calendar.html"
 
 Calendar_String = calendar.HTMLCalendar(calendar.SUNDAY).formatyear(2020, 4)
 
-#HELLO
+
 
 month_calendar = open(file_path, "w")
 month_calendar.write(Calendar_String)
