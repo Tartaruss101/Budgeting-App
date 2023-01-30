@@ -1,0 +1,8 @@
+Reciept Class
+    * Date of Transaction: Datetime type if available
+    * Items and their values: dictionary with items as keys and values as data
+    * Total: float with precision 2
+    * Tax: float with precision 2
+    * Establishment: strings, enumerated type preferred
+    * (Possible) Location: Address, gps coordinates(sketchy?)
+    
